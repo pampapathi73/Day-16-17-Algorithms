@@ -10,6 +10,7 @@ namespace Day_16_17_Algorithms
             Console.WriteLine("Press 1 for Permutation problem statement");
             Console.WriteLine("Press 2 for Binary search in a word list");
             Console.WriteLine("Press 3 for insertion sort in a word list");
+            Console.WriteLine("Press 4 for Bubble Sort");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -26,6 +27,9 @@ namespace Day_16_17_Algorithms
                     break;
                 case 3:
                     InsertionSort.sort();
+                    break;
+                case 4:
+                    BubbleSort.Sorting();
                     break;
 
                 default:
