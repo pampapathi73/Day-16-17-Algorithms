@@ -9,6 +9,7 @@ namespace Day_16_17_Algorithms
             Console.WriteLine("Welcome to algorithm");
             Console.WriteLine("Press 1 for Permutation problem statement");
             Console.WriteLine("Press 2 for Binary search in a word list");
+            Console.WriteLine("Press 3 for insertion sort in a word list");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -22,6 +23,9 @@ namespace Day_16_17_Algorithms
                 case 2:
                     //binary search a word from word list
                     BinarySearchWord.BinarySearch();
+                    break;
+                case 3:
+                    InsertionSort.sort();
                     break;
 
                 default:
