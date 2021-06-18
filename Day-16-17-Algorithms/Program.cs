@@ -13,6 +13,7 @@ namespace Day_16_17_Algorithms
             Console.WriteLine("Press 4 for Bubble Sort");
             Console.WriteLine("Press 5 for Merge sort to sort a list of Strings");
             Console.WriteLine("Press 6 for Anagram to list of Strings");
+            Console.WriteLine("Press 7 for Prime Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -39,6 +40,9 @@ namespace Day_16_17_Algorithms
                     break;
                 case 6:
                     Anagram.CheckAnagram();
+                    break;
+                case 7:
+                    PrimeNumbers.Print();
                     break;
 
                 default:
