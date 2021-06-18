@@ -9,7 +9,7 @@ namespace Day_16_17_Algorithms
 
        public static void sort()
         {
-            string[] names = { "John Doe", "Doe John", "Pampapathi", "Reddy" };
+            string[] names = { "hi", "hello", "Pampapathi", "Reddy" };
             InsertSort(names);
             foreach (var item in names)
             {
