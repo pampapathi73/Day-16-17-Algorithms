@@ -9,7 +9,9 @@ namespace Day_16_17_Algorithms
        
         public static void BinarySearch()
         {
-            string[] array = { "hello", "hi", "how", "are", "you", "Pampapathi" };
+
+            string[] array = { "hello", "hi", "how", "are", "you", "Pampapathi" };           
+
             Console.WriteLine("Sorting array....");
             string[] sortedArray = SortingArray(array);
             DisplayArr(sortedArray);
